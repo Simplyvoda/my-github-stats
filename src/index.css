@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+
+body {
+  margin: 0 auto;
+  padding: 4rem;
+  background-color: #e7ecef;
+  color: #14213d;
+  font-family: 'Caveat', cursive;
+  height: max-content;
+}
+
+.home-container > h1 {
+  color: #0f7173;
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+
+.avatar-image{
+  border-radius: 50%;
+  display: flex;
+  justify-self: center;
+  width: 12rem;
+  height: 12rem;
+  margin: 0 auto;
+}
+
+.home-text{
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+  text-align: center;
+  /* margin: 2.5rem; */
+}
+
+.home-button{
+  background-color: #f05d5e;
+  color: #e5e5e5;
+  margin: 2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-family: 'Caveat', cursive;
+  letter-spacing: 0.1rem;
+}
+
+.home-button:hover{
+  opacity: 90%;
+  transition: 0.3s;
+  font-size: 1.2rem;
+}
+
+.repo-header{
+  font-size: 3rem;
+}
+
+.repo-list{
+  padding: 1rem;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.repo-list > :nth-child(1){
+  background-color: #f05d5e;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  color:#e7ecef;
+
+}
+
+.repo-list > :nth-child(1):hover{
+  opacity: 90%
+}
+
+.pagination{
+  border-radius: 50%;
+  border: 3px solid #14213d;
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination:hover{
+  background-color: #14213d;
+  color:#e7ecef;
+  transition: 0.5s ;
+  opacity: 80%;
+  font-size: 1.2rem;
+}
